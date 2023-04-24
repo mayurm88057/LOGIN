@@ -5,9 +5,9 @@
         <meta name ="viewport" content="width=device-width,initial=1.0">
         <meta http-equiz=""X-UA-Compatible content="ie=edge">
         <Title>Login PAge</Title>
-        <!-- <link ref ="stylesheet" type="text/css" href="./new.css"> -->
-        <!-- <link ref="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> --> -->
-    <style>
+        <!-- <link ref ="stylesheet" type="text/css" href="./new.css"> --> -->
+        
+    <style> -->
         *{
     margin:0;
     padding: 0;
@@ -50,7 +50,7 @@ height: 100vh;
 .login-box p:first-child {
     margin: 0 0 30px;
     padding: 0;
-    color: #2f002c;
+    color: #0a0706;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
@@ -68,7 +68,7 @@ height: 100vh;
     color: #2f002c;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid #2f002c;
+    border-bottom: 1px solid #aaba1b;
     outline: none;
     background: transparent;
 }
@@ -79,7 +79,7 @@ height: 100vh;
     left: 0;
     padding: 10px 0;
     font-size: 16px;
-    color: #2f002c;
+    color: #161714;
     pointer-events: none;
     transition: .5s;
 }
@@ -88,7 +88,7 @@ height: 100vh;
 .login-box .user-box input:valid~label {
     top: -20px;
     left: 0;
-    color: #2f002c;
+    color: #e022d3;
     font-size: 12px;
 }
 
@@ -117,6 +117,7 @@ header {
     padding: 1.7rem 1rem;
     backdrop-filter: blur(10px);
     background-color: transparent;
+    box-shadow: 0 0 24px 0;
 }
 
 nav {
@@ -124,6 +125,7 @@ nav {
     justify-content: space-between;
     max-width: 80%;
     margin: auto;
+    box-shadow: 0 0 24px 0;
 }
 
 .logo {
@@ -132,8 +134,13 @@ nav {
 }
 
 .logo a {
-    color: #2f002c;
+    color: #070707;
     text-decoration: none;
+    box-shadow: 0 0 24px 0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .7px;
 }
 
 ul {
@@ -151,7 +158,7 @@ li {
 }
 
 li a {
-    color: #2f002c;
+    color: #0e0c0e;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
@@ -161,6 +168,17 @@ li a {
 li a:hover {
     color: #C8363E;
     transition: all .3s ease-in-out
+}
+
+input[type="submit"]{
+background-color: #000000;
+color: #a6424e;
+border: 2px solid #0c100e;
+padding: 5px 25px;
+margin: 8px 0;
+border-radius: 4px;
+cursor:pointer;
+width: 100px;
 }
 
 input[type="submit"]:hover{
